@@ -41,7 +41,7 @@ const SignUp = () => {
 						</label>
 						<input
 							type='text'
-							placeholder='Secret Identity 🕶️'
+							placeholder='Ima Secretive 🕵️‍♂️'
 							className='w-full input input-bordered  h-10'
 							value={inputs.fullName}
 							onChange={(e) => setInputs({ ...inputs, fullName: e.target.value })}
@@ -54,7 +54,7 @@ const SignUp = () => {
 						</label>
 						<input
 							type='text'
-							placeholder='RickAstley101'
+							placeholder='Secret Identity 🕶️'
 							className='w-full input input-bordered h-10'
 							value={inputs.username}
 							onChange={(e) => setInputs({ ...inputs, username: e.target.value })}
@@ -67,7 +67,7 @@ const SignUp = () => {
 						</label>
 						<input
 							type='password'
-							placeholder='12345 (Definitely Not This) 🚫'
+							placeholder='12345 (Definitely Not This) 🚫👀'
 							className='w-full input input-bordered h-10'
 							value={inputs.password}
 							onChange={(e) => setInputs({ ...inputs, password: e.target.value })}
